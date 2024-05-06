@@ -1,2 +1,4 @@
-price=10
-print(price)
+fp=open('xyz.txt','r')
+data=fp.read()
+print(data)
+fp.close()
